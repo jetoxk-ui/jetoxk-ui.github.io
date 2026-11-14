@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; --bg: #fafafa; --text: #1c1d21; --muted: #5b5d66; --link: #2f6fd1; }
+@media (prefers-color-scheme: dark) { :root { --bg: #131624; --text: #d7d8dc; --muted: #9a9ca5; --link: #8fe3ff; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 28px; margin: 0 0 16px; }
+h2 { font-size: 18px; margin: 28px 0 8px; }
+a { color: var(--link); }
+nav, p:first-child { color: var(--muted); }
